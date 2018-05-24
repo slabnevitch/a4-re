@@ -26,6 +26,11 @@ $(function() {
 		}else{
 			$menuTop.removeClass('header-top-fixed');
 		}
+		if($(this).scrollTop() > document.body.clientHeight){
+			$('.to-top').addClass('active');
+		}else{
+			$('.to-top').removeClass('active');
+		}
 	});
 
     $(".toggle-mnu").click(function() {

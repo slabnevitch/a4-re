@@ -5937,6 +5937,7 @@ h3 {
   display: none; }
 
 .to-top {
+  display: none;
   position: fixed;
   right: 50px;
   bottom: 50px;
@@ -5956,6 +5957,8 @@ h3 {
     color: #fff;
     font-size: 30px;
     font-family: FontAwesome; }
+  .to-top.active {
+    display: block; }
 
 .button {
   display: inline-block;
