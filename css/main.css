@@ -6600,8 +6600,8 @@ h3 {
     position: relative;
     text-decoration: none;
     color: #303030;
-    -webkit-transition: padding-left .2s;
-    transition: padding-left .2s; }
+    -webkit-transition: padding-left .6s;
+    transition: padding-left .6s; }
     .services-list a:before {
       content: '+';
       opacity: 0;
